@@ -9,7 +9,8 @@
 	"scripts": {
 		"dev": "pastel dev",
 		"build": "pastel build",
-		"prepare": "pastel build"
+		"prepare": "pastel build",
+		"lint": "eslint commands/ --ext .js,.jsx"
 	},
 	"files": [
 		"build"
@@ -22,7 +23,7 @@
 		"react": "^16.13.1"
 	},
 	"devDependencies": {
-		"@polyglot-library/eslint-config": "^0.1.0",
+    "@polyglot-library/eslint-config": "^0.11.0",
 		"eslint": "^6.8.0"
 	}
 }

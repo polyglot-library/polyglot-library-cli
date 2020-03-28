@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { Text, useApp, Box } from 'ink';
 import TextInput from 'ink-text-input';
 
-
 // Hello world command
 const Hello = ({ name }) => {
   const { exit } = useApp();
@@ -35,7 +34,7 @@ const Hello = ({ name }) => {
 
 Hello.propTypes = {
   // / Name of the person to greet
-  name: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired
 };
 
 export default Hello;
